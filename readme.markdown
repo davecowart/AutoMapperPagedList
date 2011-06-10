@@ -16,3 +16,7 @@
 	@if (Model.IsNextPage) {
 		@Html.ActionLink("Next", "Index", new { page = Model.PageIndex + 1 })
 	}
+
+# More Info
+
+For more info, see http://davecowart.wordpress.com/2011/06/09/automapperpagedlist/
